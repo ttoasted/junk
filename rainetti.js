@@ -22,7 +22,7 @@ function randomInRange(min, max) {
       y: (Math.random() * skew) - 0.2
     },
     colors: ['#ccff33'],
-    shapes: ['square'],
+    shapes: ['square','circle'],
     gravity: randomInRange(0.4, 0.6),
     scalar: randomInRange(0.4, 1),
     drift: randomInRange(-0.4, 0.4)
