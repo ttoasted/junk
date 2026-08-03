@@ -1,4 +1,4 @@
-function startRain{
+function startRain(){
 var duration = 15 * 1000;
 var animationEnd = Date.now() + duration;
 var skew = 1;
