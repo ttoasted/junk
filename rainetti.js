@@ -19,7 +19,7 @@ function randomInRange(min, max) {
     origin: {
       x: Math.random(),
       // since particles fall down, skew start toward the top
-      y: (Math.random() * skew) - 0.0
+      y: (Math.random() * skew) - 0.2
     },
     colors: ['#ccff33'],
     shapes: ['square'],
